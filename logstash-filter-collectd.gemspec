@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
 
   # Gem dependencies
 #  s.requirements << "jar 'org.elasticsearch:elasticsearch', '1.4.0'"
-  s.add_runtime_dependency "logstash-core", ">= 1.5.5", "< 3.0.0"
+  s.add_runtime_dependency "logstash-core", ">= 1.0.0", "< 3.0.0"
   s.add_development_dependency 'logstash-devutils'
 end
